@@ -1,0 +1,19 @@
+# Torch (required by Ultralytics)
+torch==2.1.2
+
+# YOLOv8 - newer & stable version compatible with torch
+ultralytics==8.1.16
+
+# OpenCV without GUI for Docker
+opencv-python-headless==4.8.0.74
+
+# ML utilities
+scikit-learn==1.3.2
+numpy==1.26.4
+
+# API framework
+fastapi==0.110.0
+uvicorn[standard]==0.27.0
+
+# Required for FastAPI Form and file uploads
+python-multipart==0.0.9
