@@ -5,7 +5,6 @@ from ultralytics import YOLO
 from sklearn.cluster import KMeans
 
 # Load the YOLO model.
-# NOTE: Ensure the path to your trained model is correct.
 model = YOLO("runs/detect/train/weights/best.pt")
 LABELS = model.names
 
@@ -40,7 +39,7 @@ def get_color_name(rgb_tuple):
     # These RGB values are chosen to be representative of common sign colors.
     colors = {
         "Red": (255, 0, 0),
-        "Yellow": (255, 220, 0),  # Adjusted yellow for better detection of sign colors
+        "Yellow": (255, 220, 0), 
         "Blue": (0, 0, 180),
         "Green": (0, 128, 0),
         "Orange": (255, 165, 0),
