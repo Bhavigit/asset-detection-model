@@ -56,6 +56,11 @@ coverage.xml
 # Output folders
 runs/
 outputs/
-# Ignore all runs/ content except best.pt weights
+# Ignore all content in runs/ except best.pt
 runs/*
+!runs/
+!runs/detect/
+!runs/detect/train/
+!runs/detect/train/weights/
 !runs/detect/train/weights/best.pt
+
