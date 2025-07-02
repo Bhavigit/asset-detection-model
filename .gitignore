@@ -1,0 +1,57 @@
+# Virtual environment
+venv/
+.env/
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Hidden system files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Model weights or checkpoints
+*.h5
+*.pt
+*.pth
+*.ckpt
+
+# VSCode or PyCharm settings (optional)
+.vscode/
+.idea/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# OS generated files
+*.swp
+*.bak
+
+# Environment files
+.env
+.env.*
+
+# Coverage reports
+htmlcov/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Docker-related
+*.pid
+
+# Output folders
+runs/
+outputs/
